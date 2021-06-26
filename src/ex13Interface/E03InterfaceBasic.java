@@ -1,4 +1,4 @@
-package ex13interface;
+package ex13Interface;
 
 /*
 인터페이스(interface)
@@ -61,9 +61,13 @@ public class E03InterfaceBasic {
 		
 		//구현한 인터페이스형 참조변수를 통해 자식객체를 참조한다. 		
 		MyInterface1 my1 = new MyClass();		
+		MyClass my2 = new MyClass();
 		my1.absFunc1();
 		my1.absFunc2();
+		my2.absFunc1();
+		my2.absFunc2();
 		//자식쪽 멤버에 접근하기 위해서 다운캐스팅 한후 호출한다. 
 		((SimpleClass)my1).mySimple();
+		my2.mySimple();
 	}
 }
