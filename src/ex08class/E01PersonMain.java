@@ -11,7 +11,7 @@ class Person {
 	 */
 	String name = "정우성";
 	int age = 47;
-	String gender = "남자";
+	String gender = "남자"; 
 	String job = "영화배우";
  
 	
